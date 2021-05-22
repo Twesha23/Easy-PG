@@ -51,9 +51,9 @@ public class PropertyServiceImpl implements PropertyService {
 	// private ServletContext context;
 	// String absolutePath1 = "";
 	
-	private static String UPLOADED_FOLDER1 = "C://Program Files//Apache Software Foundation//Tomcat 9.0//webapps//easypguser//resources//images//propertyPicture"+File.separator;
+	private static String UPLOADED_FOLDER1 = "D://Jva_tools//apache-tomcat-9.0.22//webapps//easypguser//resources//images//propertyPicture"+File.separator;
 	
-	private static String UPLOADED_FOLDER2 = "C://Program Files//Apache Software Foundation//Tomcat 9.0//webapps//easypguser//resources//images//profilePicture"+File.separator;
+	private static String UPLOADED_FOLDER2 = "D://Jva_tools//apache-tomcat-9.0.22//webapps//easypguser//resources//images//profilePicture"+File.separator;
 	
 	public long addProperty(Property property, MultipartFile[] files) {
 		StringBuffer filesName = new StringBuffer("");
